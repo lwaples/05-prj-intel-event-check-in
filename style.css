@@ -382,3 +382,42 @@ select {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+}
+/* Attendee List Section */
+.attendee-list-section {
+  margin-top: 30px;
+  padding-top: 25px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list-section h3 {
+  color: #64748b;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.attendee-list {
+  list-style: none;
+  padding: 0;
+}
+
+.attendee-list li {
+  background: #f8fafc;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-left: 4px solid #0071c5;
+  font-size: 15px;
+}
+
+/* Celebration Message */
+.celebration-message {
+  margin-top: 25px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0071c5;
+  text-align: center;
+}
